@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">        
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+       body{
+        font-family: 'Work Sans';
+        /*
+        Medidas absolutas
+        cm, mm, in, px, pt, pc
+
+        Medidas relativas
+        em, ex, rem, vw, vh, &
+        16px geralmente = 1em
+        */
+        font-size: 1em;
+        font-weight: normal;
+        font-style: normal;
+
+        /* weight = peso, width = largura, higth = altura */
+       }
+
+       h1 {
+        /* 
+        font-family: 'Work Sans', sans-serif;
+        font-size: 2.5em;
+        font-style: italic;
+        
+        Shorthand font
+        font: font-style(Estilo) font-weight(Peso) font-size(Tamanhho) font-family (tipo, familia fonte)
+        */
+        font: italic bolder 2.5em 'Work Sans', sans-serif;
+    }
+        h2{
+            font: bold 1em 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes em CSS</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae adipisci sed nihil eum minus perferendis commodi iure reiciendis nesciunt corrupti accusantium aut aliquid ad ullam at excepturi, reprehenderit earum quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi perspiciatis ex doloremque sit consequuntur deserunt laboriosam fuga odio assumenda illo, perferendis, dicta nam consectetur exercitationem accusantium enim libero porro debitis!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore modi voluptatum ea illo animi similique et in est quos, odit eligendi neque itaque voluptates a, vero facere cumque. Illo, voluptas?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus unde aliquam debitis praesentium quo, saepe maxime ea obcaecati velit et laudantium earum officiis? Sapiente quaerat dolorem animi ea beatae dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia beatae expedita libero magnam reiciendis, voluptatem necessitatibus, impedit incidunt quis ex hic laboriosam similique a ducimus sunt ab? Reiciendis, iusto debitis!</p>
+</body>
+</html>

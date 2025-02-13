@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <style>
+        div.conteudo{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <div class="conteudo">
+        
+        <form action="cadastro.php" method="post">
+            <p>
+                <label for="isu">Usuario:</label>
+                <input type="text" name="usu" id="iusu" minlength="7" maxlength="30" required>
+            </p>
+            <p>
+                <label for="isen">Senha:</label>
+                <input type="password" name="sen" id="isen" minlength="8" required>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        
+        </form>
+    </div>
+</body>
+</html>
